@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+	<style>
+		h2 {
+			font-family: 'Javanese Text';
+			color: #ffffff;
+		}
+
+	</style>
+
+	<link href="styles/StyleSheet2.css" rel="stylesheet" />
+</head>
+<body>
+	<form>
+	 <center>
+		<table>
+			
+				<h2>Bank Information System</h2>
+			<tr>
+				<td><label>Bank Name</label><br /><input type="text" required /></td>
+				<td><label>Branch Name</label><br /><input type="text" required /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left"><label>Branch Number</label><br /><input type="number" id="branchnum" required /></td>
+
+			</tr>
+			<tr>
+				<td colspan="2"><label>Branch Address</label><br /><textarea rows="1" cols="45" placeholder="Street Address" required></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="text" placeholder="City" required /></td>
+				<td><input type="text" placeholder="Region" required /></td>
+			</tr>
+			<tr>
+				<td><input type="number" placeholder="Postal/Zip Code" required /></td>
+				<td>
+					<select required style="width: 170px;">
+						<option>India</option>
+						<option>Argentina</option>
+						<option>France</option>
+						<option>USA</option>
+						<option>UK</option>
+						<option>Italy</option>
+						<option>China</option>
+						<option>Russia</option>
+						<option>Spain</option>
+						<option>Portugal</option>
+						<option>Indonesia</option>
+						<option>Sri Lanka</option>
+						<option>Pakistan</option>
+						<option>Australia</option>
+						<option>Brazil</option>
+						<option>UAE</option>
+						<option>Qatar</option>
+						<option>Japan</option>
+						<option>Saudi Arabia</option>
+						<option>Uruguay</option>
+						<option>Ukraine</option>
+						<option>Mexico</option>
+						<option>Canada</option>
+
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><label>Bank Account Currency</label><br /><input type="number" id="accurren" required /></td>
+
+			</tr>
+			<tr>
+				<td colspan="2"><label>A/C No.</label><br /><input type="number" id="acno" required "   /></td>
+
+			</tr>
+			<tr>
+				<td colspan="2"><label>PAN No.</label><br /><input type="number" id="panno" required "   /></td>
+			</tr>
+			<tr>
+				<td colspan="2"><label>Bank Account Name</label><br /><input type="text" id="acname" required "   /></td>
+			</tr>
+			<tr>
+				<td>
+					<label>Account Type</label> <br />
+					<input type="radio" name="a" required />Checking <br />
+					<input type="radio" name="a" required />Savings <br />
+					<input type="radio" name="a" required /> Other <br />
+				</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="submit" id="submit" />
+					<input type="reset" name="reset" id="reset" />
+				</td>
+
+			</tr>
+
+		</table>
+	 </center>
+	</form>
+</body>
+</html>

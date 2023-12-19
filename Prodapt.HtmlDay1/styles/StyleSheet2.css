@@ -1,0 +1,57 @@
+﻿html {
+	background-color: brown;
+}
+
+
+body {
+	width: 450px;
+	margin: 25px auto;
+	background-color:#92e2e7;
+	border: 5px solid black;
+	padding: 13px;
+	
+}
+#panno, #acno, #acname, #accurren, #branchnum 
+{
+	width: 340px;
+}
+
+label {
+	font-style: italic;
+	font-size: 15px;
+	
+}
+
+h2 {
+	text-shadow: 7px 4px 4px white;
+}
+
+
+#submit, #reset {
+	border: 1px solid;
+	border-radius: 12px;
+	padding: 6px;
+}
+
+
+#submit:hover{
+	background-color:#b6ff00;
+	
+
+}
+
+#reset:hover {
+	background-color:#e14444;
+}
+
+
+label:hover {
+	color: orangered;
+}
+
+h2:hover {
+	color: dimgrey;
+}
+
+
+
