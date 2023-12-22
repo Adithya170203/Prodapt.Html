@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-3">
+                <img src="Image/image2.jpg" class="img-fluid"/>
+            </div>
+        </div>
+		<div class="row">
+			<div class="col-3"></div>
+            <div class="col-lg-6 border border-1 shadow shadow-lg p-4">
+                <div class="display-5 text-center">Login Page</div>
+				<form>
+					<div class="mb-3">
+
+						<label class="form-label" for="em">Email</label>
+						<input class="form-control" type="email" id="em" />
+
+                    </div>
+					<div class="mb-3">
+						<label class="form-label" for="pw">Password</label>
+                        <input class="form-control" type="password" id="pw" />
+                    </div>
+
+					<div class="mb-3">
+                        <label class="form-label" for="dd">User Type</label>
+                        <select id="dd" class="form-select">
+                            <option selected disabled>Select One</option>
+							<option>Admin</option>
+							<option>Manager</option>
+							<option>Employee</option>
+							<option>Team Leader</option>
+                        </select>
+                    </div>
+					<div class="mb-3 form-check">
+                        <input id="chk" type="checkbox" class="form-check-input" />
+                        <label class="form-check-label" for="chk">Remember Password</label>
+                    </div>
+
+
+					<div>
+                        <center><button type="submit" class="btn btn-outline-secondary ">LOG IN</button>
+                                <button type="reset" class="btn btn-outline-secondary ">RESET</button>
+                        </center>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-3">
+				<div class="h4">Products</div>
+                <ul class="list-group">
+                    <li class="list-group-item" >Laptop</li>
+                    <li class="list-group-item active" >Mobiles</li>
+                    <li class="list-group-item">TV</li>
+                    <li class="list-group-item">Printer</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

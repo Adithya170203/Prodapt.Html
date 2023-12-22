@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			    <div class="col-3"></div>
+                <div class="col-6 border border-4">
+                    <div class="mb-3">
+                        <label class="form-label" for="num1">Enter Number 1</label>
+                        <input type="text" id="num1" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label" for="num2">Enter Number 2</label>
+                        <input type="text" id="num2" class="form-control" />
+                    </div>
+
+					<div class="mb-3">
+                        <center> <button class="btn btn-outline-warning" onclick="add()">Add</button></center>
+                    </div>
+
+					<div class="mb-3">
+                       <center> <h3 id="op"></h3></center>
+</div>
+                </div>         
+        </div>
+    </div>
+	<script>
+
+        "use strict";
+        //console.log("ok");
+        //function add() {
+        //    let a = prompt("Enter number 1:");
+        //    let b = prompt("Enter number 2:");
+        //    let c = Number(a) + Number(b);
+        //    console.log(c);
+        //    alert("Output:" + c);
+
+        //    if (confirm("Do you want to redo?")) {
+        //        add();
+        //    }
+        //    else {
+        //        alert("Thank You....");
+        //    }
+        //}
+
+        //add();
+
+        function add() {
+            let n1 = document.getElementById('num1');
+            let n2 = document.getElementById('num2');
+            let res = document.getElementById('op');
+
+
+            if (n1.value === "") {
+                n1.className += " is-invalid ";
+            }
+
+            if (n2.value === "") {
+                n2.className += " is-invalid ";
+            }
+            else {
+                let sum = Number(n1.value) + Number(n2.value);
+                res.innerHTML = "Output: " + sum;
+                n1.className = "form-control";
+                n2.className = "form-control";
+
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>

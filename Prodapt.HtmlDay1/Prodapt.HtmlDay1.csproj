@@ -67,19 +67,66 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap1.html" />
+    <Content Include="Bootstrap2.html" />
+    <Content Include="BootstrapNavigation.html" />
+    <Content Include="BootstrapTables.html" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="displaypage1.html" />
+    <Content Include="Example10.html" />
+    <Content Include="exercise2.html" />
     <Content Include="formexercise.html" />
     <Content Include="forms.html" />
+    <Content Include="htmlmedia.html" />
     <Content Include="HtmlPage1.html" />
     <Content Include="HtmlPage2.html" />
+    <Content Include="HtmlPage3.html" />
     <Content Include="imagecollage.html" />
+    <Content Include="Image\backimage.jpg" />
+    <Content Include="Image\facebook logo.jpg" />
+    <Content Include="Image\google logo.jpg" />
     <Content Include="Image\image1.jpg" />
     <Content Include="Image\image2.jpg" />
     <Content Include="Image\image3.jpg" />
+    <Content Include="Image\linkedin logo.jpg" />
+    <Content Include="Javascript1.html" />
+    <Content Include="loginpageexercise.html" />
+    <Content Include="navigations.html" />
+    <Content Include="positions.html" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="styles\bootstrap.css" />
+    <Content Include="styles\bootstrap_quartz.css" />
+    <Content Include="styles\bootstrap_vapor.css" />
+    <Content Include="styles\example10.css" />
+    <Content Include="styles\exercise2.css" />
     <Content Include="styles\StyleSheet1.css" />
     <Content Include="styles\StyleSheet2.css" />
     <Content Include="styles\StyleSheet3.css" />
     <Content Include="styles\StyleSheet4.css" />
+    <Content Include="styles\StyleSheet5.css" />
+    <Content Include="styles\StyleSheet6.css" />
+    <Content Include="styles\StyleSheet7.css" />
+    <Content Include="styles\StyleSheet8.css" />
     <Content Include="tableexercise.html" />
     <Content Include="tablerowspan.html" />
     <Content Include="tables.html" />
@@ -90,7 +137,29 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="packages.config" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

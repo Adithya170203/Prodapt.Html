@@ -1,0 +1,39 @@
+﻿.d1 {
+	margin: 50px auto;
+	border: 1px solid;
+	width: 800px;
+	height: 120px;
+	padding: 10px;
+
+
+}
+
+.box {
+	margin: 20px auto;
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	background-color: red;
+}
+
+
+.b {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+
+.c {
+	position: relative;
+	left: 50px;
+	top:50px;
+
+}
+
+.a h2 {
+	position: relative;
+	top: 20%;
+	left 60%;
+	text-align: center;
+}

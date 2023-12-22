@@ -1,0 +1,52 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+header {
+	color: white;
+	background-color: red;
+	height: 50px;
+}
+
+ul {
+	list-style-type: none;
+	background-color: black;
+	padding: 20px;
+}
+
+li {
+	display: inline-block;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	margin: 0;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+	a:hover {
+		background-color: dimgrey;
+	}
+
+
+
+#abt {
+	position: relative;
+	left: 650px;
+}
+
+p {
+	position: relative;
+	top: 70px;
+	left: 70px;
+	width: 800px;
+}
+

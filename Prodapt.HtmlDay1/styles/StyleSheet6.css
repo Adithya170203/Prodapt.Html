@@ -1,0 +1,107 @@
+﻿html {
+	background-image: url("../Image/backimage.jpg");
+	/*background-size: contain;
+	background-repeat: no-repeat;*/
+	width =1000px;
+	height =100px;
+	background-size: cover;
+}
+
+.leftside {
+	display: flex;
+	flex-direction: row;
+}
+
+
+body {
+	margin: 20px 20px;
+	border: 1px solid black;
+}
+
+.leftside > .s1{
+	width: 400px;
+	height: 500px;
+	padding: 10px;
+	background-color: #26e895;
+	opacity: 0.75;
+}
+
+.leftside > .s1 > h1 {
+	padding: 100px 10px 10px 10px;
+	font-size: 40px;
+	text-align:center;
+	color: white;
+}
+
+.leftside>.s1>h4 {
+	margin: 20px 0px 40px 0px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	font: normal;
+
+}
+
+#SignIn {
+	border: 1px solid white;
+	border-radius: 25px;
+	background-color: #26e895;
+	padding: 8px;
+	font-size: 30px;
+	width: 200px;
+	color: white;
+	text-align: center;
+	font-family:Calibri;
+}
+
+.leftside>.s2 {
+	flex-direction: column;
+	width: 800px;
+	height: 520px;
+	background-color: white;
+	opacity: 0.9;
+}
+
+.leftside > .s2 > h1 {
+	text-align: center;
+	color: green;
+	margin-bottom: 20px;
+}
+
+
+#i1, #i2, #i3 {
+		margin: 0px 12px 20px 0px;
+		border: 0.5px solid;
+		border-color: black;
+		border-radius: 50px;
+		padding: 1px;
+	}
+
+	#i1:hover, #i2:hover, #i3:hover {
+		background-color: black;
+	}
+#SignIn:hover {
+	background-color: black;
+}
+
+#SignUp 
+{
+	border: 1px solid black;
+	color: black;
+	border-radius: 20px;
+	padding: 7px;
+	font-family: Calibri;
+	width: 150px;
+	font-size: 25px;
+	background-color: white;
+}
+
+	#SignUp:hover {
+		background-color: #26e895;
+	}
+
+input {
+	margin-bottom: 10px;
+}
+	
+
